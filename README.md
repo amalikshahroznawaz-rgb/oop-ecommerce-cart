@@ -12,3 +12,7 @@ python cli.py
 
 ## Running the Tests
 python -m unittest tests/test_cart.py
+## Assumptions Made
+* All product quantities added to the cart must be integers greater than zero.
+* The Shopping Cart accepts a single PricingStrategy at initialization, which applies to the entire subtotal.
+* The system does not currently handle tax or shipping calculations, only base product prices and discounts.

@@ -1,5 +1,5 @@
 from src.models import Product, NoDiscount, PercentageDiscount
-from src.cart import ShoppingCart
+from src.services import ShoppingCart
 
 def main():
     # Pre-populate a fake "database" of products

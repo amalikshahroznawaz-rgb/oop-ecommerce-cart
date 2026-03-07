@@ -1,6 +1,6 @@
 import unittest
 from src.models import Product, NoDiscount, PercentageDiscount
-from src.cart import ShoppingCart
+from src.services import ShoppingCart
 
 class TestShoppingCart(unittest.TestCase):
     def setUp(self):
