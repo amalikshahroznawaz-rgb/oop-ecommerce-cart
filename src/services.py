@@ -1,5 +1,5 @@
 from typing import Dict, List
-from .models import CartItem, Product, PricingStrategy
+from src.models import CartItem, Product, PricingStrategy
 
 class ShoppingCart:
     def __init__(self, strategy: PricingStrategy):
